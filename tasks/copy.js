@@ -119,6 +119,6 @@ module.exports = function(grunt) {
       return;
     }
 
-    fs.utimesSync(dest, stat.atime, stat.mtime);
+    //fs.utimesSync(dest, stat.atime, stat.mtime);
   };
 };
